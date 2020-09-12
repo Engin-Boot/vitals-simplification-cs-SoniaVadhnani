@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace VitalsCSharp
 {
-     class Alerting
-    {
-         public interface IAlert
+        public interface IAlert
         {
 
              void SendAlert(string message);
@@ -29,7 +27,5 @@ namespace VitalsCSharp
             {
                 Console.WriteLine($"Sound : {message}");
             }
-        }
-
-    }
+        }   
 }
